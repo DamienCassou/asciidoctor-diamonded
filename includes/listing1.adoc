@@ -1,0 +1,9 @@
+[source]
+----
+# Ceci est du code
+# Une entrée typique de menu.lst
+# Le style employé est « code »
+title= DEBIAN GNU/Linux 2.6.24 (hdc3 - ext3)
+kernel= (hd1,2)/boot/vmlinuz-2.6.24-1-686 root=/dev/hdc3 vga=extended
+initusrd (hd1,2)/boot/initrd.img-2.6.24-1-686
+----

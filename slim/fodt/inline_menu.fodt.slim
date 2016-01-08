@@ -1,0 +1,9 @@
+- menu = attr 'menu'
+- menuitem = attr 'menuitem'
+- submenus = attr 'submenus'
+text:span text:style-name="menu"
+  =menu
+  - if !submenus.empty?
+    =submenus.map {|submenu| %( > #{submenu}) }.join
+  - if !menuitem.nil?
+    =" > #{menuitem}"

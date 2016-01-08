@@ -1,0 +1,33 @@
+= Titre de l'article
+Tristan Colombo <tristan@gnulinuxmag.com>
+:fonction: Rédacteur en chef de GLMF
+:keywords: Underscore.js, Javascript, Programmation fonctionnelle, Web, Python, Filtre
+:logos: Debian, Raspberry Pi, Github
+:chapeau: Ceci est le chapeau de l'article. Il s'agit d'une courte introduction au sujet ou à la problématique. \
+Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
+:short: Vous devez résumer ici le contenu de votre article, indiquer au lecteur tout ce qu’il pourra trouver dans les grandes lignes : \
+Python est un langage multi-plateformes permettant de blabla blabla blabla. \
+Dans ce contexte nous allons utiliser l’API XXXX de manière à créer une interface en mode texte. \
+Nous verrons que ce n’est pas si simple, notamment à cause de la documentation qui blabla blablabla blabla blabla blablabla blabla. \
+Malgré tout nous parviendrons à blabla blabla blabla blabla blabla blabla.
+:sourcedir: includes
+:codedir: code
+:imagesdir: images
+:hide-uri-scheme:
+:sectnums:
+:experimental:
+:numbered:
+
+Un article commence *TOUJOURS* par une introduction qui n'est pas numérotée (regardez dans le magazine,
+il y a une lettrine sur la première lettre de cette section).
+
+Un article *ne doit pas dépasser 6 pages dans le magazine* (si votre article est plus long
+c'est qu'il doit être traité sous la forme d'une suite d'articles).
+Pour avoir une évaluation du nombre de pages qu'occupera votre article dans le magazine utilisez la macro `Stats_DiamondEditions()`
+fournie (ajoutez environ 1 page toutes les 4 figures).
+Attention, il ne s'agit que d'une estimation donc un résultat de 6,5 (voire 7 si vous n'avez pas de code) peut éventuellement passer.
+
+Pour les termes techniques, très spécifiques au domaine (n'oubliez pas que les devs lisent des articles sysadmin et réciproquement),
+vous devez utiliser des encadrés avec la mention "définition".
+
+include::{sourcedir}/common.adoc[]

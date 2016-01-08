@@ -1,0 +1,13 @@
+- case @type
+- when :strong
+  - style = "gras"
+- when :monospaced
+  - style = "code_par"
+- when :emphasis
+  - style = "italic"
+- when :subscript
+  - style = "indice"
+- when :superscript
+  - style = "exposant"
+text:span text:style-name="#{style}"
+  =text

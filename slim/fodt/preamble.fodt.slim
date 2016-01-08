@@ -1,0 +1,38 @@
+text:p text:style-name="Heading"
+  =(attr :doctitle)
+
+text:p text:style-name="Signature"
+  =(attr :author)
+
+- if attr?(:fonction)
+  text:p text:style-name="Signature"
+    ="[#{(attr :fonction)}]"
+
+text:p text:style-name="chapeau"
+  =(attr :chapeau)
+
+- if attr?(:keywords)
+  text:p text:style-name="pragma"
+    ="/// Mots-clés ///"
+  text:p text:style-name="Normal"
+    =(attr :keywords)
+  text:p text:style-name="pragma"
+    ="/// Fin Mots-clés ///"
+  text:p text:style-name="Normal"
+
+- if attr?(:logos)
+  - logos = (attr :logos).split(',')
+  - logos.each do |logo|
+    text:p text:style-name="pragma"
+      ="/// Logo: #{logo} ///"
+  text:p text:style-name="Normal"
+
+- if attr?(:short)
+  text:p text:style-name="pragma"
+    ="/// Résumé ///"
+  text:p text:style-name="Normal"
+   =(attr :short)
+  text:p text:style-name="pragma"
+    ="/// Fin Résumé ///"
+
+=content

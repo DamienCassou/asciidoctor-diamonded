@@ -1,0 +1,11 @@
+Les sessions de commandes interactives sont à utiliser avec le style de paragraphe « console ».
+On peut également mettre en évidence certaines parties, grâce au style de caractère « code_em » :
+
+----
+$ cat dma
+2: floppy
+3: `parport0` # mise en évidence avec `code_em`
+4: cascade
+----
+
+Le prompt en utilisateur standard est `$` et en root il s'agit de `#`.
