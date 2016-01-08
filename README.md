@@ -20,10 +20,10 @@ Libreoffice doit être fermé à la génération avec `soffice`.
 
 ## TODO
 
-[ ] Le style code_em ne peut-être appliqué dans un listing code ou listing session
-[ ] Les guillemets ne sont pas rendus correctement
-[ ] Un caractère supplémentaire apparaît avec ...
-[ ] Numérotation automatique des titres auto slim/fodt/section.fodt.slim
-[ ] Nettoyer slim/fodt/table.fodt.slim
-[ ] Styliser tableau
-[ ] Une page vide s'ajoute à la fin de gnulinuxmagazine.odt
++ Le style code_em ne peut-être appliqué dans un listing code ou listing session
++ Les guillemets ne sont pas rendus correctement
++ Un caractère supplémentaire apparaît avec ...
++ Numérotation automatique des titres auto slim/fodt/section.fodt.slim
++ Nettoyer slim/fodt/table.fodt.slim
++ Styliser tableau
++ Une page vide s'ajoute à la fin de gnulinuxmagazine.odt
