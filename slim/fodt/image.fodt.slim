@@ -1,0 +1,6 @@
+- num = attr 'figure-number'
+text:p text:style-name="pragma"
+  ="/// Figure #{num}: #{(attr :target)}"
+- if @title
+  text:p text:style-name="legende"
+    ="Figure #{num}: #{title}"

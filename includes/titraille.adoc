@@ -1,0 +1,19 @@
+:!sectnums:
+
+=== 1.1 Titre de niveau 2
+
+include::blabla.adoc[]
+
+include::bla.adoc[]
+
+==== 1.1.1 Titre de niveau 3
+
+include::blabla.adoc[]
+
+include::bla.adoc[]
+
+===== 1.1.1.1 Titre de niveau 4
+
+include::blabla.adoc[]
+
+include::bla.adoc[]

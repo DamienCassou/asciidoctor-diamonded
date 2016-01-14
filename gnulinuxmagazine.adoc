@@ -1,6 +1,6 @@
 = Titre de l'article
-Tristan Colombo <tristan@gnulinuxmag.com>
-:fonction: Rédacteur en chef de GLMF
+Tristan Colombo
+:fonction: [Rédacteur en chef de GLMF]
 :keywords: Underscore.js, Javascript, Programmation fonctionnelle, Web, Python, Filtre
 :logos: Debian, Raspberry Pi, Github
 :chapeau: Ceci est le chapeau de l'article. Il s'agit d'une courte introduction au sujet ou à la problématique. \
@@ -16,7 +16,6 @@ Malgré tout nous parviendrons à blabla blabla blabla blabla blabla blabla.
 :hide-uri-scheme:
 :sectnums:
 :experimental:
-:numbered:
 
 Un article commence *TOUJOURS* par une introduction qui n'est pas numérotée (regardez dans le magazine,
 il y a une lettrine sur la première lettre de cette section).

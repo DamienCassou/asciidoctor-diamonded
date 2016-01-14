@@ -1,2 +1,10 @@
-text:p text:style-name="legende"
+- if attr?(:attribution, 'note')
+  - style = "note"
+- elsif attr?(:attribution, 'signature')
+  - style = "Signature"
+- elsif attr?(:attribution, 'chapeau')
+  - style = "chapeau"
+- else
+  - style = "legende"
+text:p text:style-name="#{style}"
   =content

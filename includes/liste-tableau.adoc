@@ -1,0 +1,15 @@
+Vous pouvez également insérer des listes à puces ou numérotées dans votre article, comme ceci:
+
+- - item 1;
+- - item 2;
+- - item 3;
+- - etc.
+
+Notez que nous n'utilisons pas les puces/numérotations automatiques de LibreOffice ici !!
+
+De même, les tableaux doivent être présentés le plus simplement possible, le contenu doit être en style "Normal", par exemple:
+
+|====
+| blabla | blabla | blabla
+| blabla | blabla | blabla
+|====

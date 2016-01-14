@@ -3,13 +3,15 @@ text:p text:style-name="Heading"
 
 text:p text:style-name="Signature"
   =(attr :author)
-
 - if attr?(:fonction)
   text:p text:style-name="Signature"
-    ="[#{(attr :fonction)}]"
+    =(attr :fonction)
 
-text:p text:style-name="chapeau"
-  =(attr :chapeau)
+- if attr?(:chapeau)
+  text:p text:style-name="chapeau"
+    =(attr :chapeau)
+- else
+  =content
 
 - if attr?(:keywords)
   text:p text:style-name="pragma"
@@ -35,4 +37,5 @@ text:p text:style-name="chapeau"
   text:p text:style-name="pragma"
     ="/// Fin Résumé ///"
 
-=content
+-if attr?(:chapeau)
+  =content

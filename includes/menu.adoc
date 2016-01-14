@@ -1,0 +1,3 @@
+Lorsqu'on décrit une interface graphique ou texte (pas les lignes de commandes, les interfaces en mode texte comme Midnight Commander par exemple),
+il est possible de faire référence aux menus et options avec le style de caractères "menu".
+Exemple: Cochez l'option menu:Auto-Connexion[>] dans la fenêtre des options qui apparaît via le menu menu:Fichier[Préférences>Connexion].

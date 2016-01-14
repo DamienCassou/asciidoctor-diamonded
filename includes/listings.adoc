@@ -1,0 +1,9 @@
+include::listing1.adoc[]
+
+Paragraphe en "Normal". On fait ici mention d'un élément de la configuration:
+l'étiquette `title` (style de caractère "code_par" pour du code dans du texte) permet d'ajouter un titre dans les menus de GRUB.
+La commande `grub-install` permet l'installation du _bootloader_
+(Attention! Cet italique est généré par le style de caractère "italic" et non par l'icône italique de LibreOffice, idem pour le gras).
+Nous pouvons spécifier le mode graphique à utiliser avec l'option `vga`:
+
+include::listing2.adoc[]

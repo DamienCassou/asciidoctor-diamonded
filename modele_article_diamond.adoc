@@ -1,0 +1,50 @@
+= Titre de l'article
+Prénom et Nom
+:sourcedir: includes
+:codedir: code
+:imagesdir: images
+:hide-uri-scheme:
+:sectnums:
+:experimental:
+
+[quote, chapeau]
+Ceci est le chapeau de l'article. Il s'agit d'une courte introduction au sujet ou à la problématique.
+Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
+
+== Titre de niveau 1
+
+Paragraphe en style "Normal".
+
+include::{sourcedir}/listings.adoc[]
+
+NOTE: /// Ceci est une note : Attention !///
+
+[quote, note]
+Note notenote note notenote, note note note notenote. Bla notenote note notenote, note note note notenote.
+Bla notenote note notenote, note note note notenote. Bla notenote note notenote, note note note notenote.
+Bla notenote note notenote, note note note notenote. Bla notenote note notenote, note note note notenote.
+Bla notenote note notenote, note note note notenote. Bla notenote note notenote, note note note notenote.
+
+NOTE: /// Fin du bloc note///
+
+include::{sourcedir}/session.adoc[]
+
+include::{sourcedir}/liste-tableau.adoc[]
+
+N'intégrez pas vos images dans le fichier OpenOffice, mais faites-en mention avec le style "pragma". Exemple:
+
+include::{sourcedir}/image.adoc[]
+
+NOTE: /// Fin légende ///
+
+include::{sourcedir}/menu.adoc[]
+
+include::{sourcedir}/blabla.adoc[]
+
+include::{sourcedir}/titraille.adoc[]
+
+[quote, signature]
+Denis Bodor +++db@ed-diamond.com lefinnois@lefinnois.net+++
+
+[quote, signature]
+Rédacteur en chef de GLMF. Utilisateur GNU/Linux depuis 1994. Randonneur du jardin magique.

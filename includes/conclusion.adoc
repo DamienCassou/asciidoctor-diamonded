@@ -1,0 +1,5 @@
+== Conclusion
+
+La conclusion ne comporte pas de numérotation. Il s'agit de la dernière section de l'article.
+
+include::raccourcis.adoc[]

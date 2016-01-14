@@ -1,0 +1,8 @@
+- if attr?(:attribution, 'source')
+  - style = "code"
+- else
+  - style = "console"
+- parts = content.split(/\n/)
+- parts.each do |part|
+  text:p text:style-name="#{style}"
+    =part

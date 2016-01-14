@@ -1,0 +1,109 @@
+= Titre de l'article
+Cédric Foll
+:fonction: Rédacteur en chef de MISC - cedric@miscmag.com
+:keywords: MALWARE / PENTEST / ANALYSE FORENSIQUE / EXPLOIT / RÉSEAU / CYBERCRIMINALITÉ
+:chapeau: Ceci est le chapeau de l'article. Il s'agit d'une courte introduction au sujet ou à la problématique. \
+Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
+:sourcedir: includes
+:codedir: code
+:imagesdir: images
+:hide-uri-scheme:
+:sectnums:
+:experimental:
+:numbered:
+
+Votre article peut commencer par une introduction (attention, celle-ci ne doit en principe pas être numérotée).
+
+Plutôt que de parler des outils les plus fréquemment utilisés, nous nous sommes en partie concentrés ici sur des outils moins courants,
+et rarement abordés dans les colonnes de _MISC_ (Attention ! Cet italique est généré par le style de caractère "italic"
+et non par l'icône italique de LibreOffice, idem pour le gras) ou des autres magazines spécialisés.
+
+== Titre de niveau 1
+
+Paragraphe en style "Normal" (et non "Standard" ou "Corps de texte").
+
+include::{sourcedir}/listing1.adoc[]
+
+Paragraphe en "Normal". On fait ici mention d'un élément de la configuration:
+l'étiquette `title` (style de caractère "code_par" pour du code dans du texte) permet d'ajouter un titre dans les menus de GRUB.
+La commande `grub-install` permet l'installation du _bootloader_.
+Nous pouvons spécifier le mode graphique à utiliser avec l'option `vga`:
+
+include::{sourcedir}/listing2.adoc[]
+
+Si vous souhaitez faire référence à des lignes de code pour les expliquer, vous pouvez les numéroter comme dans le code ci-dessus.
+
+NOTE: /// Début note PAO ///
+
+Vous pouvez mentionner de cette manière les éventuelles informations à indiquer à la rédaction ou au service de mise en page.
+Cette mention n'apparaîtra pas dans l'article final.
+
+NOTE: /// Fin note PAO ///
+
+Le second thème de ce dossier explore l’audit des applications à la découverte de failles de sécurité.
+Il s’ouvre avec un article sur *American Fuzzy Lop* (Attention, le "gras" est généré par le style de caractère "gras" et non par l'icône gras de LibreOffice),
+un outil de fuzzing cherchant à couvrir le maximum de code du programme audité en analysant son graphe d’exécution.
+
+NOTE: /// Début note ///
+
+[quote, note]
+Le texte présent ici, rédigé en style "Note", apparaîtra dans l'article final dans une boîte spéciale "note".
+Vous pourrez ainsi présenter des informations complémentaires.
+
+NOTE: /// Fin note ///
+
+Les indications en style "pragma", comme ci-dessus, doivent toujours être encadrées de 3 slashs /// ... ///.
+
+Si vous souhaitez une note ayant un titre spécifique, par exemple: "Attention", il faut utiliser:
+
+NOTE: /// Début note : Attention ///
+
+[quote, note]
+Le texte présent ici, rédigé en style "Note", apparaîtra dans l'article final dans une boîte spéciale "Attention".
+
+NOTE: /// Fin note ///
+
+include::{sourcedir}/session.adoc[]
+
+Plus d'informations sur le magazine sur le blog officiel: http://www.miscmag.com/ (notez l'utilisation du style de caractère "url" et la désactivation de l'hyperlien).
+
+include::{sourcedir}/liste-tableau.adoc[]
+
+Les références, à mettre en style "gras", doivent être intégrées dans le discours du texte et leur étiquette sera un nombre OU un mot-clé. Exemple:
+
+Vous trouverez tous les sommaires des derniers numéros publiés sur le blog des Éditions Diamond *[EDBLOG]*.
+
+OU
+
+Enfin, des infrastructures dédiées sont parfois mises en place pour chacune des cibles comme l'a décrit cet article *[1]*.
+Vous trouverez également des informations supplémentaires sur le sujet dans cet ouvrage *[2]*.
+
+C'est seulement lorsqu'une citation apparaît dans le texte qu'elle peut être développée dans la section "Références" en fin d'article.
+
+N'intégrez pas vos images dans le fichier LibreOffice, mais faites-en mention avec le style "pragma".
+Vous pouvez faire référence à une figure dans le texte: comme on peut le voir en figure 1, ... ou encore (voir figure 1).
+
+.Exemple d'écran de démarrage GRUB. Une légende peut être une simple phrase ou même la mention du numéro de figure. Le style utilisé pour une légende.... est "legende".
+image::nom_article_figure_01.png[]
+
+include::{sourcedir}/menu.adoc[]
+
+include::{sourcedir}/blabla.adoc[]
+
+include::{sourcedir}/titraille.adoc[]
+
+:!sectnums:
+
+== Conclusion
+
+La conclusion de l'article ne comporte pas de numérotation.
+
+== Remerciements
+
+Si vous souhaitez ajouter des remerciements à votre article, cette partie pourra être ajoutée à cet endroit et présentée de cette manière.
+
+== Références
+
+- *[EDBLOG]* Blog officiel des Éditions Diamond: http://www.editions-diamond.fr/
+- *[1]* P. Nom, "Titre de l'article", _MISC n°82_, novembre-décembre 2015.
+- *[2]* P. Nom et P. Autrenom, "Titre livre", éditeur, année.

@@ -1,10 +1,16 @@
 = Titre de l'article
-Tristan Colombo <tristan@gnulinuxmag.com>
+Tristan Colombo
 :chapeau: Ceci est le chapeau de l'article. \
 Il s'agit d'une courte introduction au sujet ou à la problématique. \
 Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
 :keywords: Underscore.js, Javascript, Programmation fonctionnelle, Web, Python, Filtre
 :sourcedir: includes
+:codedir: code
+:imagesdir: images
+:hide-uri-scheme:
+:sectnums:
+:experimental:
+:numbered:
 
 Un article commence *TOUJOURS* par une introduction qui n'est pas numérotée (regardez dans le magazine, il y a une lettrine sur la première lettre de cette section).
 Sauf exception un article ne doit pas dépasser 12 pages dans le HS (si votre article est plus long c'est qu'il doit être traité sous la forme d'une suite d'articles).

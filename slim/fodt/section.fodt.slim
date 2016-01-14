@@ -1,3 +1,8 @@
+- if @numbered
+  - num = sectnum.chop
+  - titre = "#{num} #{title}"
+- else
+  - titre = title
 - if @level == 1
   - style = "Heading_20_1"
 - if @level == 2
@@ -7,5 +12,5 @@
 - if @level == 4
   - style = "Heading_20_4"
 text:p text:style-name="#{style}"
-  =title
+  =titre
 =content

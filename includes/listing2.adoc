@@ -1,0 +1,7 @@
+[verse, source]
+____
+01: # Une entrée typique de menu.lst
+02: title= DEBIAN GNU/Linux 2.6.24 (hdc3 - ext3)
+03: kernel= (hd1,2)/boot/vmlinuz-2.6.24-1-686 root=/dev/hdc3 `vga=extended`
+04: initrd (hd1,2)/boot/initrd.img-2.6.24-1-686
+____

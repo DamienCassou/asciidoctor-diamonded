@@ -1,13 +1,17 @@
 = Titre de l'article (recette)
-Tristan Colombo <tristan@gnulinuxmag.com>
-:fonction: Rédacteur en chef de GLMF
+Tristan Colombo
+:fonction: [Rédacteur en chef de GLMF]
 :keywords: Underscore.js, Javascript, Programmation fonctionnelle, Web, Python, Filtre
 :logos: Debian, Raspberry Pi, Github
 :chapeau: Ceci est le chapeau de l'article. Il s'agit d'une courte introduction au sujet ou à la problématique. \
 Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
 :sourcedir: includes
+:codedir: code
+:imagesdir: images
+:hide-uri-scheme:
+:experimental:
 
-Il s'agit d'un format spécial d'article : pas de référence (il faudra mettre les liens dans le texte) ni de section "Pour aller plus loin" ni même d'introduction.
+Il s'agit d'un format spécial d'article: pas de référence (il faudra mettre les liens dans le texte) ni de section "Pour aller plus loin" ni même d'introduction.
 Le découpage de l'article est donné dans la suite.
 
 Un article *ne doit pas dépasser 6 pages dans le magazine* (si votre article est plus long
@@ -18,12 +22,12 @@ fournie (ajoutez environ 1 page toutes les 4 figures).
 == L'objectif
 
 Décrire ici l'objectif de l'article, qu'est-ce que l'on va chercher à réaliser
-(le format est le même que pour les articles "standards" : paragraphes en style "Normal", etc).
+(le format est le même que pour les articles "standards": paragraphes en style "Normal", etc).
 
 == Les outils
 
 Décrire ici quels programmes vont être utilisés pour pouvoir parvenir au résultat.
-Par exemple, pour décrire une installation/configuration d'Apache sous Debian il faudra seulement indiquer sous forme de liste :
+Par exemple, pour décrire une installation/configuration d'Apache sous Debian il faudra seulement indiquer sous forme de liste:
 
 - - un système GNU/Linux Debian (version utilisée dans l'article xxxxx)
 - - `aptitude` (paquet `aptitude`)
@@ -31,7 +35,7 @@ Par exemple, pour décrire une installation/configuration d'Apache sous Debian i
 
 == Phase 1
 Déroulez les explications étape par étape. S'il s'agit d'un programme détachez bien les différentes phases
-et enrichissez votre code étape par étape. On écrit un bout de code (ex de style pour du code dans du texte :
+et enrichissez votre code étape par étape. On écrit un bout de code (ex de style pour du code dans du texte:
 `fonction()`), on teste, ça marche et on passe à la suite. On améliore notre code (phase 2), on teste, etc.
 
 include::{sourcedir}/blabla.adoc[]
@@ -40,7 +44,7 @@ include::{sourcedir}/bla.adoc[]
 
 include::{sourcedir}/listing1.adoc[]
 
-== Phase ...
+== Phase +++...+++
 
 include::{sourcedir}/blabla.adoc[]
 
