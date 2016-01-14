@@ -11,19 +11,37 @@ Exécuter `bundle install` depuis le dossier cloné contenant le `Gemfile.lock`,
 
 ## Génération
 
-Des fichiers exemples .adoc sont disponibles à la racine. Pour générer leur équivalent .fodt et .odt, un `Makefile` est disponible,
+Des fichiers exemples `.adoc` correspondant aux différents modèles Diamond sont disponibles à la racine.
+Pour générer leur équivalent `.fodt` et `.odt`, un `Makefile` est disponible,
 lancez la commande suivante pour les générer:
 
     make
 
 Libreoffice doit être fermé à la génération avec `soffice`.
 
+Les fichiers finaux `fodt` et `odt` sont générés dans le dossier `build`.
+
+## Extension chrome:
+
+Si vous ne voulez pas avoir à générer votre fichier final pendant la rédaction, mais désirez quand même avoir
+un aperçu, vous pouvez utiliser une extension Chrome ou Firefox qui va styliser à la volée le fichier `adoc`.
+
+Notez néanmoins que le style appliqué est le style HTML par défaut de Asciidoctor, donc certains styles ne sont pas équivalents
+aux styles de ces templates, et certains ne sont pas du tout affichés. De plus, les directives d'inclusion ne sont pas directement affichées.
+
+Par défaut l'extenson navigateur marhce en mode `Safe`: seules les fichiers `adoc` en ligne sont stylisés. Pour que les fichiers locaux lus depuis votre
+système de fichiers soient traités il faut activer l'option `Unsafe` (Firefox) ou `Autoriser l'accès aux URL de fichiers` (Chrome)
+
 ## TODO
 
-+ Le style code_em ne peut-être appliqué dans un listing code ou listing session
-+ Les guillemets ne sont pas rendus correctement
-+ Un caractère supplémentaire apparaît avec ...
-+ Numérotation automatique des titres auto slim/fodt/section.fodt.slim
-+ Nettoyer slim/fodt/table.fodt.slim
++ Un titre/légende est nécessaire aux images pour la numérotation auto
++ Le titre/légende d'une image ne doit pas comporter de retour à la ligne
++ Gestion des liens et references automatique
++ Les guillemets n'affichent pas le même caractère
++ il n'y a pas l'espace avant certaines ponctuations (!, ; et :)
++ Il y a des fois des sauts de lignes inutiles entre le chapeau/mot-clés/résumé/intro
++ Un caractère supplémentaire apparaît avec `...`, besoin de les encadrer par `+++`
++ Nettoyer `slim/fodt/table.fodt.slim`
 + Styliser tableau
-+ Une page vide s'ajoute à la fin de gnulinuxmagazine.odt
++ Une page vide s'ajoute à la fin de `gnulinuxmagazine.odt`
++ On ne peut pas utiliser de retour à la ligne, ni de paragraphe dans le résumé (attribut `short`)
