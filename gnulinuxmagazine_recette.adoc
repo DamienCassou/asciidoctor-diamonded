@@ -34,6 +34,7 @@ Par exemple, pour décrire une installation/configuration d'Apache sous Debian i
 - - `vim` (paquet `vim`) ou tout autre éditeur de code
 
 == Phase 1
+
 Déroulez les explications étape par étape. S'il s'agit d'un programme détachez bien les différentes phases
 et enrichissez votre code étape par étape. On écrit un bout de code (ex de style pour du code dans du texte:
 `fonction()`), on teste, ça marche et on passe à la suite. On améliore notre code (phase 2), on teste, etc.

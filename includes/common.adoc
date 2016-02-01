@@ -60,7 +60,7 @@ include::liste-tableau.adoc[]
 
 Les références, à mettre en style "gras", doivent être intégrées dans le discours du texte et leur étiquette sera un nombre
 (attention à bien respecter un ordre croissant 1, 2, 3, etc.). Exemple: Comme on peut le voir sur le site de Linux Magazine *[1]*
-et dans l'article de T. Colombo *[2]*, blablablabla blablabla. C'est seulement lorsqu'une citation apparaît dans le texte quelle peut être développée
+et dans l'article de T. Colombo *[2]*, blablablabla blablabla. C'est seulement lorsqu'une citation apparaît dans le texte qu'elle peut être développée
 dans la section "Références" en fin d'article. Dans cette section il faudra donner des références bibliographiques
 ou des urls mais il faudra indiquer aussi à quoi elles correspondent (voir le format à respecter en fin d'article dans la section "Références").
 
