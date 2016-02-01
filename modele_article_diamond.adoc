@@ -44,7 +44,7 @@ include::{sourcedir}/blabla.adoc[]
 include::{sourcedir}/titraille.adoc[]
 
 [quote, signature]
-Denis Bodor +++db@ed-diamond.com lefinnois@lefinnois.net+++
+Denis Bodor db@ed-diamond.com lefinnois@lefinnois.net
 
 [quote, signature]
 Rédacteur en chef de GLMF. Utilisateur GNU/Linux depuis 1994. Randonneur du jardin magique.

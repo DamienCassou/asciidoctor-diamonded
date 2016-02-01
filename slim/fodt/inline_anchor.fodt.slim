@@ -1,5 +1,5 @@
-text:span text:style-name="url"
-  - if @target == @text
+- if target.start_with? 'mailto:'
+  =@text
+- else
+  text:span text:style-name="url"
     =@text
-  - else
-    =@target
