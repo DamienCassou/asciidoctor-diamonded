@@ -1,9 +1,9 @@
 Vous pouvez également insérer des listes à puces ou numérotées dans votre article, comme ceci:
 
-- - item 1;
-- - item 2;
-- - item 3;
-- - etc.
+- item 1;
+- item 2;
+- item 3;
+- etc.
 
 Notez que nous n'utilisons pas les puces/numérotations automatiques de LibreOffice ici !!
 
