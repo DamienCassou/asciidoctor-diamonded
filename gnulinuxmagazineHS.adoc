@@ -6,7 +6,6 @@ Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture
 :keywords: Underscore.js, Javascript, Programmation fonctionnelle, Web, Python, Filtre
 :sourcedir: includes
 :codedir: code
-:imagesdir: images
 :hide-uri-scheme:
 :sectnums:
 :experimental:

@@ -1,6 +1,7 @@
 - num = attr 'figure-number'
+- name = File.basename attr :target
 text:p text:style-name="pragma"
-  ="/// Figure #{num}: #{(attr :target)}"
+  ="/// Figure #{num}: #{name}"
 - if @title
   text:p text:style-name="legende"
     ="Figure #{num}: #{title}"

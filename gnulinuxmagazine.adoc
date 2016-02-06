@@ -12,7 +12,6 @@ Nous verrons que ce n’est pas si simple, notamment à cause de la documentatio
 Malgré tout nous parviendrons à blabla blabla blabla blabla blabla blabla.
 :sourcedir: includes
 :codedir: code
-:imagesdir: images
 :hide-uri-scheme:
 :sectnums:
 :experimental:

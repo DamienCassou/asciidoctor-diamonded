@@ -7,7 +7,6 @@ Tristan Colombo
 Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
 :sourcedir: includes
 :codedir: code
-:imagesdir: images
 :hide-uri-scheme:
 :experimental:
 
