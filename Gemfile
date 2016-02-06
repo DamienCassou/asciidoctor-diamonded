@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 #gem 'rake'
+gem 'guard'
+gem 'guard-shell'
+gem 'guard-livereload'
+gem 'yajl-ruby'
 gem 'asciidoctor'#, '1.5.0'
 gem 'slim'
 gem 'thread_safe'
