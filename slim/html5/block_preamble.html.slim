@@ -1,0 +1,51 @@
+#preamble
+  - if attr?(:chapeau)
+   = block_with_title 'quoteblock'
+     blockquote =(attr :chapeau)
+  - else
+    =content
+
+  - if (attr? :keywords)
+    .admonitionblock class="note"
+      table: tr
+        td.icon
+          .title "NOTE"
+        td.content "Mots-clés"
+
+    = block_with_title 'paragraph'
+      p =(attr :keywords)
+
+    .admonitionblock class="note"
+      table: tr
+        td.icon
+          .title "NOTE"
+        td.content "Fin mots-clés"
+
+  - if (attr? :logos)
+    - logos = (attr :logos).split(',')
+    - logos.each do |logo|
+      .admonitionblock class="note"
+        table: tr
+          td.icon
+            .title "NOTE"
+          td.content
+            ="/// Logo: #{logo} ///"
+
+  - if (attr? :short)
+    .admonitionblock class="note"
+      table: tr
+        td.icon
+          .title "NOTE"
+        td.content "Résumé"
+
+    = block_with_title 'paragraph'
+      p =(attr :short)
+
+    .admonitionblock class="note"
+      table: tr
+        td.icon
+          .title "NOTE"
+        td.content "Fin résumé"
+
+  -if attr?(:chapeau)
+    =content
