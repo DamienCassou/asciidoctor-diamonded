@@ -12,10 +12,10 @@ all : clean $(FODTFILES) $(ODTFILES)
 guard:
 	bundle exec guard
 
-html: $(HTMLFILES)
-
 clean :
-	-rm builds/*odt
+	-rm $(DIRDEST)/*odt $(DIRDEST)/*html
+
+html: $(HTMLFILES)
 
 %.html: %.adoc
 	bundle exec asciidoctor --destination-dir $(DIRDEST) --attribute lang=fr --trace -T slim $<
