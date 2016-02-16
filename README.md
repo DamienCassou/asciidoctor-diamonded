@@ -34,9 +34,8 @@ système de fichiers soient traités il faut activer l'option `Unsafe` (Firefox)
 
 ## TODO
 
-+ Export PDF
-+ Export EPub
-+ Export Kindle
++ Support des diagrammes
++ Support Latex
 + Un titre/légende est nécessaire aux images pour la numérotation auto
 + Le titre/légende d'une image ne doit pas comporter de retour à la ligne
 + Gestion des liens et references automatique
