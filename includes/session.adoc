@@ -1,11 +1,10 @@
 Les sessions de commandes interactives sont à utiliser avec le style de paragraphe "console".
 On peut également mettre en évidence certaines parties, grâce au style de caractère "code_em":
 
-[verse, console]
-____
+[listing,subs="normal"]
+----
 $ cat dma
 2: floppy
 3: `parport0` # mise en évidence avec `code_em`
 4: cascade
-____
-
+----
