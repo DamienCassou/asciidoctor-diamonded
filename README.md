@@ -34,6 +34,11 @@ système de fichiers soient traités il faut activer l'option `Unsafe` (Firefox)
 
 ## TODO
 
++ Les statistiques de mots et caractères ne s'affichent pas
++ Gérer les références vers des numéros de sections
++ NOTE Admonition block http://asciidoctor.org/docs/user-manual/#admonition
++ Améliorer le template html5 pour le live preview
++ Ajouter des templates pour les formats ebooks
 + Support des diagrammes
 + Support Latex
 + Un titre/légende est nécessaire aux images pour la numérotation auto
