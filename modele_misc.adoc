@@ -103,6 +103,8 @@ Si vous souhaitez ajouter des remerciements à votre article, cette partie pourr
 
 == Références
 
-- *[EDBLOG]* Blog officiel des Éditions Diamond: http://www.editions-diamond.fr/
-- *[1]* P. Nom, "Titre de l'article", _MISC n°82_, novembre-décembre 2015.
-- *[2]* P. Nom et P. Autrenom, "Titre livre", éditeur, année.
+*[EDBLOG]* Blog officiel des Éditions Diamond: http://www.editions-diamond.fr/
+
+*[1]* P. Nom, "Titre de l'article", _MISC n°82_, novembre-décembre 2015.
+
+*[2]* P. Nom et P. Autrenom, "Titre livre", éditeur, année.

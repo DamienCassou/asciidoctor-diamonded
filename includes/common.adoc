@@ -83,9 +83,11 @@ include::conclusion.adoc[]
 
 == Références
 
-- *[1]* Site officiel de _GNU/Linux Magazine_: http://www.gnulinuxmagazine.com
-- *[2]* T. Colombo, _"Titre de l'article"_, _GNU/Linux Magazine_ n°171, Mai 2014, p. x à y.
-- *[3]* P. Nom et A. Autrenom, _"Titre livre"_, éditeur, année.
+*[1]* Site officiel de _GNU/Linux Magazine_: http://www.gnulinuxmagazine.com
+
+*[2]* T. Colombo, _"Titre de l'article"_, _GNU/Linux Magazine_ n°171, Mai 2014, p. x à y.
+
+*[3]* P. Nom et A. Autrenom, _"Titre livre"_, éditeur, année.
 
 Notez ci-dessus l'utilisation du style "italic" pour les titres de magazines. Les références doivent être écrites en style "Normal".
 
@@ -94,5 +96,6 @@ Notez ci-dessus l'utilisation du style "italic" pour les titres de magazines. Le
 Dans cette partie (*optionnelle*) vous pouvez donner une liste de liens, références bibliographiques sans les avoir cités dans le texte.
 Attention, il faut tout de même un petit texte indiquant à quoi se rapporte le lien:
 
-- Conférence de R. Stallman du 28 septembre 2012: https://www.youtube.com/watch?v=2onsOFWme-Q
-- Le livre de R. Stallman, S. Williams et C. Masutti, _"Richard Stallman et la révolution du logiciel libre"_, Eyrolles, 2010.
+Conférence de R. Stallman du 28 septembre 2012: https://www.youtube.com/watch?v=2onsOFWme-Q
+
+Le livre de R. Stallman, S. Williams et C. Masutti, _"Richard Stallman et la révolution du logiciel libre"_, Eyrolles, 2010.
