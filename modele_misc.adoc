@@ -83,7 +83,7 @@ N'intégrez pas vos images dans le fichier LibreOffice, mais faites-en mention a
 Vous pouvez faire référence à une figure dans le texte: comme on peut le voir en figure 1, ... ou encore (voir figure 1).
 
 .Exemple d'écran de démarrage GRUB. Une légende peut être une simple phrase ou même la mention du numéro de figure. Le style utilisé pour une légende.... est "legende".
-image::../images/nom_article_figure_01.png[]
+image::nom_article_figure_01.png[]
 
 include::{sourcedir}/menu.adoc[]
 
