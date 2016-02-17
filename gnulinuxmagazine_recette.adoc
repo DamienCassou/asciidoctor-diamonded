@@ -28,9 +28,9 @@ Décrire ici l'objectif de l'article, qu'est-ce que l'on va chercher à réalise
 Décrire ici quels programmes vont être utilisés pour pouvoir parvenir au résultat.
 Par exemple, pour décrire une installation/configuration d'Apache sous Debian il faudra seulement indiquer sous forme de liste:
 
-- - un système GNU/Linux Debian (version utilisée dans l'article xxxxx)
-- - `aptitude` (paquet `aptitude`)
-- - `vim` (paquet `vim`) ou tout autre éditeur de code
+- un système GNU/Linux Debian (version utilisée dans l'article xxxxx)
+- `aptitude` (paquet `aptitude`)
+- `vim` (paquet `vim`) ou tout autre éditeur de code
 
 == Phase 1
 
