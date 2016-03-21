@@ -34,6 +34,10 @@ système de fichiers soient traités il faut activer l'option `Unsafe` (Firefox)
 
 ## TODO
 
++ indentation des listing source non conservées
++ factoriser section.fodt.slim (conf 5268-AsciidoctorArticle-BenedettiB)
++ Sortir heading, chapeau et signature de preamble.fodt.slim vers document.fodt.slim
++ listing bloc => literal bloc
 + Les statistiques de mots et caractères ne s'affichent pas
 + Gérer les références vers des numéros de sections
 + NOTE Admonition block http://asciidoctor.org/docs/user-manual/#admonition
