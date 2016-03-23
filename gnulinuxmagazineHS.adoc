@@ -4,6 +4,11 @@ Tristan Colombo
 Il s'agit d'une courte introduction au sujet ou à la problématique. \
 Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
 :keywords: Underscore.js, Javascript, Programmation fonctionnelle, Web, Python, Filtre
+:short: Vous devez résumer ici le contenu de votre article, indiquer au lecteur tout ce qu’il pourra trouver dans les grandes lignes : \
+Python est un langage multi-plateformes permettant de blabla blabla blabla. \
+Dans ce contexte nous allons utiliser l’API XXXX de manière à créer une interface en mode texte. \
+Nous verrons que ce n’est pas si simple, notamment à cause de la documentation qui blabla blablabla blabla blabla blablabla blabla. \
+Malgré tout nous parviendrons à blabla blabla blabla blabla blabla blabla.
 :sourcedir: includes
 :codedir: code
 :hide-uri-scheme:
