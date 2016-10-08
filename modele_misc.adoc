@@ -6,10 +6,8 @@ Cédric Foll
 Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
 :sourcedir: includes
 :codedir: code
-:hide-uri-scheme:
 :sectnums:
 :experimental:
-:numbered:
 
 Votre article peut commencer par une introduction (attention, celle-ci ne doit en principe pas être numérotée).
 

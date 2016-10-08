@@ -7,7 +7,6 @@ Tristan Colombo
 Essayez d'être explicite et de donner envie au lecteur de poursuivre la lecture de l'article.
 :sourcedir: includes
 :codedir: code
-:hide-uri-scheme:
 :experimental:
 
 Il s'agit d'un format spécial d'article: pas de référence (il faudra mettre les liens dans le texte) ni de section "Pour aller plus loin" ni même d'introduction.

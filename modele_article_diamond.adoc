@@ -2,8 +2,6 @@
 Prénom et Nom
 :sourcedir: includes
 :codedir: code
-:hide-uri-scheme:
-:sectnums:
 :experimental:
 
 [quote, chapeau]
