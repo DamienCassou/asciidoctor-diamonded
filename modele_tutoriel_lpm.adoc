@@ -1,0 +1,133 @@
+= Créer facilement une copie de sauvegarde de vos DVD vidéo avec k9copy
+Benoît Benedetti
+:chapeau: Qui n'a jamais eu de souci avec un DVD vidéo devenu illisible \
+à cause d'une chute ? Ou simplement une perte ? Pour éviter ce genre de cas, \
+la solution la plus simple est de faire une copie de sauvegarde de vos DVD. \
+C'est là que k9copy intervient...
+:logiciel_version: k9copy 2.3.8
+:!sectnums:
+:experimental:
+
+NOTE: /// Encadré ///
+
+== Instructions d'installation
+
+K9copy n'est pas installé par défaut pour des raisons de licence,
+car celui-ci utilise la bibliothèque *libdvdcss* qui permettrait la copie de DVD protégés.
+Il est donc à utiliser en toute connaissance de cause. Pour l'installer,
+ouvrez simplement votre gestionnaire de logiciels et recherchez « k9copy ».
+Attention, pour des raisons de licence (encore une fois),
+il est rarement intégré dans les dépôts officiels et vous devrez peut-être
+ajouter un dépôt communautaire (RPM Fusion pour Fedora, Universe pour Ubuntu, Packman pour openSUSE, PLF pour Mandriva, etc.)
+ pour pouvoir l'installer ou vous rendre sur le site du projet (http://k9copy.sourceforge.net/web/index.php/fr/)
+pour y télécharger les sources. Une fois l'installation terminée, 2 entrées sont créées dans votre menu : menu:k9copy[]
+et menu:k9copy assistant[]. Nous allons nous focaliser sur la seconde,
+la première n'étant nécessaire que si l'on recherche une option de copie très précise.
+
+NOTE: /// Fin Encadré ///
+
+:sectnums:
+== Premiers pas
+
+.k9copy2.png
+image::k9copy2.png[]
+
+Une fois lancé, k9copy assistant vous propose des choix, selon le style de copie qui vous intéresse.
+Le premier choix nous demande où se trouve la source. Il peut s'agir d'une image ISO,
+d'un dossier où se trouvent les fichiers vidéo, ou comme dans notre cas d'un DVD physique.
+Choisissons donc menu:Lecteur DVD[]. Si vous possédez plusieurs lecteurs DVD sur votre ordinateur,
+vérifiez à choisir le lecteur dans lequel le DVD source a été inséré.
+
+== Enregistrement de la copie de votre DVD
+
+.k9copy3.png
+image::k9copy3.png[]
+
+Un clic sur menu:Suivant[] nous amène au choix suivant qui nous demande où k9copy doit enregistrer la copie.
+Nous choisirons ici la copie sur DVD vierge, mais la création d'une image ISO ou l'enregistrement des fichiers vidéo
+dans un dossier peuvent aussi être pratiques si vous désirez stocker vos copies sur un disque dur externe par exemple.
+
+== Déterminez ce que vous souhaitez copier
+
+.k9copy4.png
+image::k9copy4.png[]
+
+Le prochain choix est important. Il s'agit de choisir précisément ce que vous désirez copier.
+À vous de choisir si vous préférez sauvegarder la totalité du DVD avec ses éventuels bonus,
+bandes-annonces et publicités, ou si vous ne gardez que le plus important, le film.
+Tous les titres du DVD sont listés, le film correspondant également à un titre.
+Il suffit de cocher ou décocher les cases précédents chaque titre pour les sélectionner ou non.
+À noter que pour vérifier à quoi correspond un titre, il suffit de le sélectionner puis de lancer
+la prévisualisation en cliquant sur le petit bouton menu:Play[] dans le panneau de droite.
+
+== Français ou version originale ? À vous de décider...
+
+.k9copy5.png
+image::k9copy5.png[]
+
+Ensuite, vous avez la possibilité de choisir les langues que vous désirez garder sur la copie.
+Généralement, il suffit de ne garder que le français, mais certains désirent voir le film en version originale.
+Comme précédemment, il suffit de cocher ou décocher les cases correspondantes.
+Veillez à sélectionner toutes les cases correspondant à la langue choisie,
+car certains lecteurs ou certaines télévisions ne supportent ou ne donnent
+un résultat correct qu'avec un certain type de flux audio.
+
+== Menu de votre DVD et bonus
+
+.k9copy6.png
+image::k9copy6.png[]
+
+Le dernier choix avant la copie du DVD est celui de la conservation ou non du menu du DVD.
+Si vous choisissez de ne pas le garder, le lancement du DVD se fera directement par la lecture
+du titre que vous choisirez ensuite dans la liste, le film étant le choix par défaut.
+Si vous conservez les bonus, il est évidemment utile de garder les menus pour pouvoir y accéder facilement.
+
+== Définir la qualité de votre copie
+
+.k9copy6.png
+image::k9copy6.png[]
+
+Le panneau suivant est optionnel dans notre cas, puisqu'il concerne le taux de compression
+que le logiciel doit utiliser pour créer sa copie. Ce taux est calculé par défaut automatiquement par k9copy
+pour permettre une copie d'un DVD original (un DVD9, double couche) vers un DVD vierge (DVD5, simple couche)
+avec le minimum de perte. Il est évident que plus aurez choisis de garder des menus, bonus, langues, etc. du DVD original,
+plus il sera nécessaire de compresser les données pour qu'elles puissent être enregistrées sur un DVD simple couche
+ et donc plus la qualité de la copie se détériorera.
+
+== Copie de votre DVD
+
+.k9copy7.png
+image::k9copy7.png[]
+
+Cliquez ensuite sur menu:Terminer[] pour lancer la copie à proprement parlé.
+La lecture du DVD se lance et l'on peut voir l'état d'avancement ainsi que la visualisation de la vidéo
+qui est actuellement lue. La durée du travail dépend évidemment de la puissance de votre machine,
+mais aussi de la durée du film et des bonus sélectionnés. Cela oscille généralement entre 10 et 30 minutes.
+La lecture une fois terminée, k9copy vous demande d'insérer un DVD vierge.
+Sortez donc votre DVD original et placez votre DVD-R dans le lecteur, puis cliquez sur menu:Continuer[]. La gravure débute...
+
+== Gravure de votre DVD
+
+.k9copy8.png
+image::k9copy8.png[]
+
+K9copy recrée maintenant la structure du DVD telle que vous l'avez paramétrée pendant la configuration sur le DVD vierge.
+Vous pouvez voir dans la fenêtre l'état d'avancement. Après 10-15 minutes, selon la vitesse de votre graveur
+ (ainsi que la vitesse de gravure acceptée par votre DVD vierge), la gravure se termine et k9copy vous informe que la copie s'est bien déroulée.
+Vous voilà avec votre film sauvegardé !
+
+NB: /// Encadré ///
+
+== Aller + loin
+
+.k9copy9.png
+image::k9copy9.png[]
+
+Il est à noter que vous avez d'autres possibilités avec k9copy. Vous pouvez par exemple créer un fichier vidéo
+au format MPEG de votre film, en lieu et place d'un DVD. Vous avez alors comme résultat
+un fichier plus léger (environ la taille d'un CD) que vous pouvez stocker encore plus facilement.
+Vous pouvez également ne garder que la bande-son, très pratique lorsqu'il s'agit d'un DVD d'un concert par exemple.
+Ces options, et d'autres encore, sont facilement accessibles via les menu:Paramètres[]
+de menu:k9copy assistant[]. N'hésitez pas à les tester.
+
+NOTE: /// Fin Encadré ///

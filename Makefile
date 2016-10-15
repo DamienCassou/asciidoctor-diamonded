@@ -1,5 +1,5 @@
 DIRDEST=builds
-SRCFILES=gnulinuxmagazine.adoc  gnulinuxmagazineHS.adoc  gnulinuxmagazine_recette.adoc  modele_article_diamond.adoc  modele_misc.adoc
+SRCFILES=gnulinuxmagazine.adoc modele_tutoriel_lpm.adoc gnulinuxmagazineHS.adoc  gnulinuxmagazine_recette.adoc  modele_article_diamond.adoc  modele_misc.adoc
 
 HTMLFILES=$(SRCFILES:.adoc=.html)
 FODTFILES=$(SRCFILES:.adoc=.fodt)
