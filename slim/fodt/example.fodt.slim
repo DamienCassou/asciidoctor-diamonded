@@ -4,5 +4,9 @@
   - style = "console"
 - parts = content.split(/\n/)
 - parts.each do |part|
+  - part = part.gsub(/\t/, '    ')
+  - part = part.gsub(/\s{8}/, '<text:s text:c="8"/>')
+  - part = part.gsub(/\s{4}/, '<text:s text:c="4"/>')
+  - part = part.gsub(/\s{2}/, '<text:s text:c="2"/>')
   text:p text:style-name="#{style}"
     =part
