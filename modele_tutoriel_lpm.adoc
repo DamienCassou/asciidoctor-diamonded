@@ -5,6 +5,7 @@ Benoît Benedetti
 la solution la plus simple est de faire une copie de sauvegarde de vos DVD. \
 C'est là que k9copy intervient...
 :logiciel_version: k9copy 2.3.8
+:logiciel_site: http://k9copy.sourceforge.net/
 :!sectnums:
 :experimental:
 :tutoriel:

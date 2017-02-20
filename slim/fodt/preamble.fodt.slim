@@ -1,11 +1,14 @@
 text:p text:style-name="Heading"
   =(attr :doctitle)
 
-- if attr?(:logiciel_version)
+- if attr?(:tutoriel)
   text:p text:style-name="Normal"
     text:span text:style-name="gras"
       ="Outil utilisé : "
     =(attr :logiciel_version)
+    text:span text:style-name="gras"
+      =" Site Web : "
+    =(attr :logiciel_site)
 
 text:p text:style-name="Signature"
   =(attr :author)
