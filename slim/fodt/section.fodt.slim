@@ -1,6 +1,8 @@
 - if @numbered
   - num = sectnum.chop
   - titre = "#{num} #{title}"
+  - if attr?(:tutoriel)
+    - titre = "Etape #{num}: #{title}"
 - else
   - titre = title
 - if @level == 1
