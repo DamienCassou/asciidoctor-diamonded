@@ -7,7 +7,7 @@
 + xmllint
 + libreoffice
 
-Exécuter `bundle install` depuis le dossier cloné contenant le `Gemfile.lock`, pour installer Asciidoctor et ses dépendances.
+Exécuter `bundle install --binstubs` depuis le dossier cloné contenant le `Gemfile.lock`, pour installer Asciidoctor et ses dépendances.
 
 ## Génération
 
