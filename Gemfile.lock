@@ -109,7 +109,7 @@ GEM
     treetop (1.5.3)
       polyglot (~> 0.3)
     ttfunk (1.4.0)
-    yajl-ruby (1.2.1)
+    yajl-ruby (1.2.2)
 
 PLATFORMS
   ruby
